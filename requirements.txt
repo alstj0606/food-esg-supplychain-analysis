@@ -1,0 +1,8 @@
+pandas
+numpy
+jupyter
+matplotlib
+duckdb
+openpyxl
+xlrd
+pyarrow

@@ -1,0 +1,1885 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<title>가격정보 - 친환경농산물 - 품목별 엑셀 출력</title>
+	<meta http-equiv="Content-Type" content="application/vnd.ms-excel;charset=utf-8">
+	<style type="text/css">
+		table caption	{ text-align:left; }
+		table th		{ background-color:#eff2f9; }
+		table td		{ mso-number-format:\@; text-align:general; vertical-align:middle; text-align:center; white-space:nowrap; mso-rotate:0; mso-background-source:auto; mso-pattern:auto; color:black; font-size:11.0pt; font-style:normal; text-decoration:none; font-family:"맑은 고딕", monospace; mso-font-charset:129; border:1px; mso-protection:locked visible; mso-style-name:표준; mso-style-id:0; }
+		table td.c		{ text-align:center;}
+		table td.l		{ text-align:left; }
+		table td.r		{ text-align:right; }
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td	class="data">
+				<table id="data" border="1px">
+					
+										<caption>소매가격 
+										전체 
+										
+										
+										
+										
+										부류별/연간 가격정보</caption>
+										<colgroup><col style="width:10%">
+										<col style="width:10%">
+										<col style="width:100px;">
+										<col style="width:80px;">
+										<col style="width:20%">
+										<col style="width:20%">
+										<col>
+										<col>
+										</colgroup><thead>
+											<tr>
+												<th class="first" scope="col">품목<button type="button" class="btn ic filter" title="필터" onclick="setTableId(1);"><i class="feather icon-filter"></i></button></th>
+												<th scope="col" class="tsw_fix" style="left: 139.898px;">품종<!-- <button type="button" class="btn ic filter" title="필터" onclick="setTableId(this, 1);view_show('_filter');"><i class="feather icon-filter"></i></button> --></th>
+												<th scope="col" class="tsw_fix" style="left: 279.797px;">단위<!-- <button type="button" class="btn ic filter" title="필터" onclick="setTableId(this, 1);view_show('_filter');"><i class="feather icon-filter"></i></button> --></th>
+												<th scope="col" class="tsw_fix" style="left: 379.797px;">등급<button type="button" class="btn ic filter" title="필터" onclick="setTableId(1);view_show('_filter');"><i class="feather icon-filter"></i></button></th>
+												<th scope="col">당년평균(A)<button type="button" class="btn ic sort" onclick="fncSortTbl(this, '#itemTable_1', 'desc');" title="기본 정렬됨"><i class="feather icon-align-justify"></i></button></th>
+												<th scope="col">전년평균(B)<button type="button" class="btn ic sort" onclick="fncSortTbl(this, '#itemTable_1', 'desc');" title="기본 정렬됨"><i class="feather icon-align-justify"></i></button></th>
+												<th scope="col">등락률(%)(A/B)<button type="button" class="btn ic sort" onclick="fncSortTbl(this, '#itemTable_1', 'desc');" title="기본 정렬됨"><i class="feather icon-align-justify"></i></button></th>
+												<th class="last" scope="col">연평년<button type="button" class="btn ic sort" onclick="fncSortTbl(this, '#itemTable_1', 'desc');" title="기본 정렬됨"><i class="feather icon-align-justify"></i></button></th>
+											</tr>
+										</thead>
+										
+											<tbody><tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">쌀</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">20kg</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">20kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>62,929</td>
+												<td>58,652</td>
+												<td>7.3</td>
+												<td class="last">55,071</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">10kg</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">10kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>35,417</td>
+												<td>31,878</td>
+												<td>11.1</td>
+												<td class="last">29,744</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">찹쌀</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">일반계</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>5,244</td>
+												<td>5,532</td>
+												<td>-5.2</td>
+												<td class="last">4,314</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">콩</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">흰 콩(국산)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">500g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>4,944</td>
+												<td>5,198</td>
+												<td>-4.9</td>
+												<td class="last">5,319</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">팥</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">붉은 팥(국산)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">500g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>13,127</td>
+												<td>14,184</td>
+												<td>-7.5</td>
+												<td class="last">8,824</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">녹두</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">국산</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">500g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>11,587</td>
+												<td>11,675</td>
+												<td>-0.8</td>
+												<td class="last">11,223</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">고구마</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">밤</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>5,051</td>
+												<td>5,075</td>
+												<td>-0.5</td>
+												<td class="last">5,419</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>4,171</td>
+												<td>4,246</td>
+												<td>-1.8</td>
+												<td class="last">4,426</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="5" style="left: 0px;">감자</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">수미(노지)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>400</td>
+												<td>369</td>
+												<td>8.4</td>
+												<td class="last">394</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>336</td>
+												<td>285</td>
+												<td>17.9</td>
+												<td class="last">304</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">대지마</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>776</td>
+												<td>809</td>
+												<td>-4.1</td>
+												<td class="last">650</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">수미(시설)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>651</td>
+												<td>566</td>
+												<td>15.0</td>
+												<td class="last">592</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>639</td>
+												<td>460</td>
+												<td>38.9</td>
+												<td class="last">471</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">배추</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">월동</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1포기</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>4,876</td>
+												<td>5,255</td>
+												<td>-7.2</td>
+												<td class="last">4,228</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>3,911</td>
+												<td>4,882</td>
+												<td>-19.9</td>
+												<td class="last">3,397</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">양배추</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">양배추</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1포기</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,733</td>
+												<td>4,593</td>
+												<td>-18.7</td>
+												<td class="last">4,284</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>3,145</td>
+												<td>3,809</td>
+												<td>-17.4</td>
+												<td class="last">3,562</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">시금치</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">시금치</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,014</td>
+												<td>1,313</td>
+												<td>-22.8</td>
+												<td class="last">1,215</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">상추</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">적</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,223</td>
+												<td>1,191</td>
+												<td>2.7</td>
+												<td class="last">1,246</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">청</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,343</td>
+												<td>1,327</td>
+												<td>1.2</td>
+												<td class="last">1,341</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">얼갈이배추</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">얼갈이배추</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>4,067</td>
+												<td>3,313</td>
+												<td>22.8</td>
+												<td class="last">3,280</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">갓</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">갓</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>6,657</td>
+												<td>6,127</td>
+												<td>8.7</td>
+												<td class="last">4,346</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">수박</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">수박</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>29,062</td>
+												<td>27,152</td>
+												<td>7.0</td>
+												<td class="last">24,731</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>26,371</td>
+												<td>23,997</td>
+												<td>9.9</td>
+												<td class="last">22,234</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">참외</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">참외</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>27,049</td>
+												<td>22,044</td>
+												<td>22.7</td>
+												<td class="last">22,284</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>19,185</td>
+												<td>16,568</td>
+												<td>15.8</td>
+												<td class="last">16,801</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="4" style="left: 0px;">오이</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">가시계통</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>17,188</td>
+												<td>14,636</td>
+												<td>17.4</td>
+												<td class="last">13,794</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">다다기계통</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>12,452</td>
+												<td>10,964</td>
+												<td>13.6</td>
+												<td class="last">10,577</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>8,947</td>
+												<td>7,517</td>
+												<td>19.0</td>
+												<td class="last">6,889</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">취청</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>16,186</td>
+												<td>15,312</td>
+												<td>5.7</td>
+												<td class="last">14,111</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="3" style="left: 0px;">호박</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">애호박</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>2,169</td>
+												<td>1,744</td>
+												<td>24.4</td>
+												<td class="last">1,780</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,627</td>
+												<td>1,295</td>
+												<td>25.6</td>
+												<td class="last">1,301</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">쥬키니</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,841</td>
+												<td>1,783</td>
+												<td>3.3</td>
+												<td class="last">1,997</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">토마토</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">토마토</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>5,600</td>
+												<td>5,964</td>
+												<td>-6.1</td>
+												<td class="last">6,079</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">딸기</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">딸기</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,942</td>
+												<td>1,740</td>
+												<td>11.6</td>
+												<td class="last">1,639</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,598</td>
+												<td>1,471</td>
+												<td>8.6</td>
+												<td class="last">1,362</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">무</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">월동</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>2,142</td>
+												<td>2,992</td>
+												<td>-28.4</td>
+												<td class="last">1,908</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,976</td>
+												<td>2,598</td>
+												<td>-23.9</td>
+												<td class="last">1,625</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">당근</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">무세척</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,247</td>
+												<td>4,238</td>
+												<td>-23.4</td>
+												<td class="last">4,328</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>2,377</td>
+												<td>3,803</td>
+												<td>-37.5</td>
+												<td class="last">3,394</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">열무</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">열무</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,972</td>
+												<td>3,416</td>
+												<td>16.3</td>
+												<td class="last">3,499</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">건고추</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">화건</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">600g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>17,049</td>
+												<td>17,353</td>
+												<td>-1.8</td>
+												<td class="last">17,605</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="7" style="left: 0px;">풋고추</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">풋고추(녹광 등)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,951</td>
+												<td>1,847</td>
+												<td>5.6</td>
+												<td class="last">1,659</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">꽈리고추</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,916</td>
+												<td>1,632</td>
+												<td>17.4</td>
+												<td class="last">1,546</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,353</td>
+												<td>1,042</td>
+												<td>29.9</td>
+												<td class="last">954</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">청양고추</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,757</td>
+												<td>1,314</td>
+												<td>33.7</td>
+												<td class="last">1,287</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,288</td>
+												<td>781</td>
+												<td>64.9</td>
+												<td class="last">814</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">오이맛고추</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,474</td>
+												<td>1,220</td>
+												<td>20.8</td>
+												<td class="last">1,201</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,060</td>
+												<td>673</td>
+												<td>57.5</td>
+												<td class="last">862</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">붉은고추</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">붉은고추</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>2,289</td>
+												<td>2,324</td>
+												<td>-1.5</td>
+												<td class="last">2,077</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">양파</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">양파</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>2,262</td>
+												<td>2,272</td>
+												<td>-0.4</td>
+												<td class="last">2,320</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,928</td>
+												<td>1,889</td>
+												<td>2.1</td>
+												<td class="last">1,859</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="3" style="left: 0px;">파</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">대파</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,187</td>
+												<td>2,983</td>
+												<td>6.8</td>
+												<td class="last">3,261</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">쪽파</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>8,084</td>
+												<td>9,373</td>
+												<td>-13.8</td>
+												<td class="last">8,559</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>4,816</td>
+												<td>6,104</td>
+												<td>-21.1</td>
+												<td class="last">5,831</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">생강</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">국산</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>14,911</td>
+												<td>13,002</td>
+												<td>14.7</td>
+												<td class="last">12,736</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">고춧가루</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">국산</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>32,161</td>
+												<td>32,284</td>
+												<td>-0.4</td>
+												<td class="last">33,270</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">중국</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>13,443</td>
+												<td>13,450</td>
+												<td>-0.1</td>
+												<td class="last">13,074</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">미나리</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">미나리</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,813</td>
+												<td>1,611</td>
+												<td>12.5</td>
+												<td class="last">1,372</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">깻잎</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">깻잎</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,189</td>
+												<td>2,928</td>
+												<td>8.9</td>
+												<td class="last">2,615</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">피망</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">청</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,816</td>
+												<td>1,500</td>
+												<td>21.1</td>
+												<td class="last">1,400</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">파프리카</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">파프리카</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">200g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>2,096</td>
+												<td>1,860</td>
+												<td>12.7</td>
+												<td class="last">1,813</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,630</td>
+												<td>1,483</td>
+												<td>9.9</td>
+												<td class="last">1,366</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">멜론</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">멜론</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>18,198</td>
+												<td>12,683</td>
+												<td>43.5</td>
+												<td class="last">12,708</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">깐마늘(국산)</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">깐마늘(국산)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>11,364</td>
+												<td>11,189</td>
+												<td>1.6</td>
+												<td class="last">11,103</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>9,055</td>
+												<td>9,115</td>
+												<td>-0.7</td>
+												<td class="last">8,579</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">알배기배추</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">알배기배추</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1포기</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,102</td>
+												<td>3,545</td>
+												<td>-12.5</td>
+												<td class="last">3,554</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,934</td>
+												<td>2,068</td>
+												<td>-6.5</td>
+												<td class="last">2,154</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">브로콜리</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">브로콜리(국산)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>2,421</td>
+												<td>2,807</td>
+												<td>-13.8</td>
+												<td class="last">2,757</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,962</td>
+												<td>2,434</td>
+												<td>-19.4</td>
+												<td class="last">2,060</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">참깨</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">백색(국산)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">500g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>18,004</td>
+												<td>18,091</td>
+												<td>-0.5</td>
+												<td class="last">16,892</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">중국</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">500g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>5,054</td>
+												<td>5,058</td>
+												<td>-0.1</td>
+												<td class="last">5,032</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">땅콩</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">국산</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,529</td>
+												<td>3,792</td>
+												<td>-6.9</td>
+												<td class="last">3,083</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,135</td>
+												<td>1,115</td>
+												<td>1.8</td>
+												<td class="last">993</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">느타리버섯</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">느타리버섯</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>958</td>
+												<td>904</td>
+												<td>6.0</td>
+												<td class="last">1,052</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">애느타리버섯</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>639</td>
+												<td>616</td>
+												<td>3.7</td>
+												<td class="last">590</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">팽이버섯</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">팽이버섯</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">150g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>581</td>
+												<td>553</td>
+												<td>5.1</td>
+												<td class="last">563</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">새송이버섯</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">새송이버섯</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>613</td>
+												<td>571</td>
+												<td>7.4</td>
+												<td class="last">592</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>492</td>
+												<td>492</td>
+												<td>-</td>
+												<td class="last">460</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">호두</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>2,125</td>
+												<td>2,108</td>
+												<td>0.8</td>
+												<td class="last">1,582</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">아몬드</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,881</td>
+												<td>1,848</td>
+												<td>1.8</td>
+												<td class="last">1,518</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">사과</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">후지</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>28,125</td>
+												<td>28,073</td>
+												<td>0.2</td>
+												<td class="last">27,758</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>20,524</td>
+												<td>21,056</td>
+												<td>-2.5</td>
+												<td class="last">20,613</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">배</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">신고</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>33,475</td>
+												<td>38,728</td>
+												<td>-13.6</td>
+												<td class="last">39,107</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>26,023</td>
+												<td>29,386</td>
+												<td>-11.4</td>
+												<td class="last">30,328</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">포도</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">샤인머스켓</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">2kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">L과</th>
+												<td>15,428</td>
+												<td>18,702</td>
+												<td>-17.5</td>
+												<td class="last">23,324</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="4" style="left: 0px;">감귤</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">노지</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">M과</th>
+												<td>4,634</td>
+												<td>4,762</td>
+												<td>-2.7</td>
+												<td class="last">3,724</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">S과</th>
+												<td>3,746</td>
+												<td>3,786</td>
+												<td>-1.1</td>
+												<td class="last">2,992</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">시설</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">M과</th>
+												<td>8,634</td>
+												<td>9,355</td>
+												<td>-7.7</td>
+												<td class="last">8,426</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">S과</th>
+												<td>6,875</td>
+												<td>7,512</td>
+												<td>-8.5</td>
+												<td class="last">7,010</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">단감</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">단감</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>14,525</td>
+												<td>15,016</td>
+												<td>-3.3</td>
+												<td class="last">14,199</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>11,033</td>
+												<td>11,290</td>
+												<td>-2.3</td>
+												<td class="last">10,654</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">바나나</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>334</td>
+												<td>315</td>
+												<td>6.0</td>
+												<td class="last">312</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>313</td>
+												<td>248</td>
+												<td>26.2</td>
+												<td class="last">271</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">참다래</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">국산</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>10,175</td>
+												<td>9,527</td>
+												<td>6.8</td>
+												<td class="last">9,139</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>8,360</td>
+												<td>7,655</td>
+												<td>9.2</td>
+												<td class="last">7,420</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">파인애플</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>7,525</td>
+												<td>7,148</td>
+												<td>5.3</td>
+												<td class="last">6,975</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>6,091</td>
+												<td>6,150</td>
+												<td>-1.0</td>
+												<td class="last">6,060</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">오렌지</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">네이블 미국</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>19,986</td>
+												<td>17,681</td>
+												<td>13.0</td>
+												<td class="last">15,656</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>15,223</td>
+												<td>12,816</td>
+												<td>18.8</td>
+												<td class="last">12,662</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">방울토마토</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">방울토마토</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>11,013</td>
+												<td>10,724</td>
+												<td>2.7</td>
+												<td class="last">10,076</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">대추방울토마토</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>8,733</td>
+												<td>9,154</td>
+												<td>-4.6</td>
+												<td class="last">8,926</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">레몬</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">10개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>10,266</td>
+												<td>10,356</td>
+												<td>-0.9</td>
+												<td class="last">10,156</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>8,350</td>
+												<td>8,134</td>
+												<td>2.7</td>
+												<td class="last">8,197</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">체리</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>1,973</td>
+												<td>2,258</td>
+												<td>-12.6</td>
+												<td class="last">2,459</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,461</td>
+												<td>1,266</td>
+												<td>15.4</td>
+												<td class="last">1,899</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">망고</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>5,594</td>
+												<td>5,073</td>
+												<td>10.3</td>
+												<td class="last">5,228</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>3,904</td>
+												<td>3,553</td>
+												<td>9.9</td>
+												<td class="last">3,621</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">아보카도</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>2,238</td>
+												<td>2,082</td>
+												<td>7.5</td>
+												<td class="last">2,075</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="5" style="left: 0px;">고등어</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">국산(염장)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1손</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>6,215</td>
+												<td>6,431</td>
+												<td>-3.4</td>
+												<td class="last">4,369</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">국산(신선 냉장)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">大</th>
+												<td>4,559</td>
+												<td>4,689</td>
+												<td>-2.8</td>
+												<td class="last">4,421</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>3,078</td>
+												<td>3,409</td>
+												<td>-9.7</td>
+												<td class="last">3,151</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">국산(냉동)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">大</th>
+												<td>3,656</td>
+												<td>4,227</td>
+												<td>-13.5</td>
+												<td class="last">4,233</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">수입산(염장)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1손</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">大</th>
+												<td>10,601</td>
+												<td>9,019</td>
+												<td>17.5</td>
+												<td class="last">7,533</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">꽁치</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">냉동(수입)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">5마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>6,845</td>
+												<td>6,880</td>
+												<td>-0.5</td>
+												<td class="last">6,520</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="6" style="left: 0px;">갈치</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="3" style="left: 139.898px;">국산(냉장)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="3" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">大</th>
+												<td>15,192</td>
+												<td>14,771</td>
+												<td>2.9</td>
+												<td class="last">14,983</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>8,038</td>
+												<td>7,895</td>
+												<td>1.8</td>
+												<td class="last">8,090</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">小</th>
+												<td>4,435</td>
+												<td>3,953</td>
+												<td>12.2</td>
+												<td class="last">4,247</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">국산(냉동)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">大</th>
+												<td>11,542</td>
+												<td>10,312</td>
+												<td>11.9</td>
+												<td class="last">9,891</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>5,587</td>
+												<td>5,147</td>
+												<td>8.6</td>
+												<td class="last">5,165</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">수입산(냉동)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">大</th>
+												<td>9,392</td>
+												<td>9,290</td>
+												<td>1.1</td>
+												<td class="last">9,117</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="5" style="left: 0px;">조기</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">참조기(신선 냉장)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>1,835</td>
+												<td>1,638</td>
+												<td>12.0</td>
+												<td class="last">1,480</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">小</th>
+												<td>1,307</td>
+												<td>1,277</td>
+												<td>2.4</td>
+												<td class="last">1,213</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">참조기(냉동)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>1,910</td>
+												<td>2,152</td>
+												<td>-11.3</td>
+												<td class="last">1,651</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">小</th>
+												<td>1,265</td>
+												<td>1,311</td>
+												<td>-3.5</td>
+												<td class="last">1,113</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">굴비</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>2,603</td>
+												<td>2,686</td>
+												<td>-3.1</td>
+												<td class="last">2,501</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="3" style="left: 0px;">명태</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">냉동(원양수입통합)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">大</th>
+												<td>3,997</td>
+												<td>3,879</td>
+												<td>3.0</td>
+												<td class="last">3,772</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>2,842</td>
+												<td>2,742</td>
+												<td>3.7</td>
+												<td class="last">2,669</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">냉동가공</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>7,267</td>
+												<td>8,897</td>
+												<td>-18.3</td>
+												<td class="last">9,119</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">삼치</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">냉장</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">大</th>
+												<td>8,643</td>
+												<td>9,370</td>
+												<td>-7.8</td>
+												<td class="last">9,370</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">냉동</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>6,515</td>
+												<td>5,877</td>
+												<td>10.9</td>
+												<td class="last">5,877</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="5" style="left: 0px;">물오징어</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">연근해(신선 냉장)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>7,915</td>
+												<td>7,104</td>
+												<td>11.4</td>
+												<td class="last">6,487</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">연근해(냉동)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>5,807</td>
+												<td>5,951</td>
+												<td>-2.4</td>
+												<td class="last">5,286</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">小</th>
+												<td>4,812</td>
+												<td>4,627</td>
+												<td>4.0</td>
+												<td class="last">3,915</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="2" style="left: 139.898px;">원양(냉동)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="2" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">中</th>
+												<td>5,052</td>
+												<td>4,706</td>
+												<td>7.4</td>
+												<td class="last">4,281</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">小</th>
+												<td>3,607</td>
+												<td>3,167</td>
+												<td>13.9</td>
+												<td class="last">3,045</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="3" style="left: 0px;">마른멸치</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" rowspan="3" style="left: 139.898px;">마른멸치</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" rowspan="3" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">대멸</th>
+												<td>2,469</td>
+												<td>2,428</td>
+												<td>1.7</td>
+												<td class="last">2,305</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중멸</th>
+												<td>2,951</td>
+												<td>2,864</td>
+												<td>3.0</td>
+												<td class="last">2,857</td>
+											</tr>
+										
+											<tr>
+												
+												
+												
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">세멸</th>
+												<td>3,184</td>
+												<td>3,156</td>
+												<td>0.9</td>
+												<td class="last">3,175</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">마른오징어</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">마른오징어</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">10마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>79,619</td>
+												<td>78,528</td>
+												<td>1.4</td>
+												<td class="last">68,810</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">김</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">마른김</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">10장</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>1,429</td>
+												<td>1,373</td>
+												<td>4.1</td>
+												<td class="last">1,073</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">얼구운김</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">10장</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>2,163</td>
+												<td>2,089</td>
+												<td>3.5</td>
+												<td class="last">1,741</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">마른미역</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">마른미역</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,024</td>
+												<td>3,066</td>
+												<td>-1.4</td>
+												<td class="last">3,025</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">굴</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">굴</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>20,919</td>
+												<td>21,264</td>
+												<td>-1.6</td>
+												<td class="last">22,359</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">수입조기</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">부세수입(냉동)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>4,659</td>
+												<td>4,365</td>
+												<td>6.7</td>
+												<td class="last">3,888</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">새우젓</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">새우젓</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>15,657</td>
+												<td>14,825</td>
+												<td>5.6</td>
+												<td class="last">17,255</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">멸치액젓</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">멸치액젓</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>6,097</td>
+												<td>5,793</td>
+												<td>5.3</td>
+												<td class="last">5,434</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">천일염</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">천일염</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">5kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>12,109</td>
+												<td>11,347</td>
+												<td>6.7</td>
+												<td class="last">11,124</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">전복</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">전복</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">5마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>12,135</td>
+												<td>11,982</td>
+												<td>1.3</td>
+												<td class="last">13,536</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">새우</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">흰다리(수입)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">10마리</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>5,129</td>
+												<td>5,147</td>
+												<td>-0.4</td>
+												<td class="last">4,734</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">꽃게</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">암꽃게(냉동)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>19,044</td>
+												<td>21,904</td>
+												<td>-13.1</td>
+												<td class="last">21,904</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">홍합</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">깐홍합(냉장)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,134</td>
+												<td>3,011</td>
+												<td>4.1</td>
+												<td class="last">2,878</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">안깐홍합(냉장)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,890</td>
+												<td>4,482</td>
+												<td>-13.2</td>
+												<td class="last">4,272</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">가리비</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">해만가리비(홍가리비)</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>6,182</td>
+												<td>7,027</td>
+												<td>-12.0</td>
+												<td class="last">7,448</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">건다시마</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">완도산</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">100g</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>3,191</td>
+												<td>3,369</td>
+												<td>-5.3</td>
+												<td class="last">3,558</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">바지락</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">바지락</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>10,996</td>
+												<td>10,985</td>
+												<td>0.1</td>
+												<td class="last">10,985</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" rowspan="2" style="left: 0px;">고등어필렛</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">수입</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>17,587</td>
+												<td>18,261</td>
+												<td>-3.7</td>
+												<td class="last">18,261</td>
+											</tr>
+										
+											<tr>
+												
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">국산</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1kg</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">중품</th>
+												<td>20,014</td>
+												<td>19,952</td>
+												<td>0.3</td>
+												<td class="last">19,952</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">즉석밥</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">CJ 햇반 백미밥 210g×8개</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1묶음</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>10,133</td>
+												<td>9,955</td>
+												<td>1.8</td>
+												<td class="last">10,134</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">두부</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">풀무원 국산콩 300g×2</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>5,112</td>
+												<td>5,254</td>
+												<td>-2.7</td>
+												<td class="last">5,272</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">김치</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">대상 종가집 포기김치 2.8kg</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>29,819</td>
+												<td>29,680</td>
+												<td>0.5</td>
+												<td class="last">29,680</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">고추장</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">해찬들 우리쌀로만든 태양초고추장 1kg</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>17,936</td>
+												<td>16,372</td>
+												<td>9.6</td>
+												<td class="last">15,289</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">된장</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">청정원 재래식 생된장 1kg</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>8,566</td>
+												<td>7,406</td>
+												<td>15.7</td>
+												<td class="last">7,191</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">간장</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">샘표 양조간장 501 1.7L</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1개</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>15,431</td>
+												<td>13,691</td>
+												<td>12.7</td>
+												<td class="last">12,462</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">맛김(조미김)</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">동원에프앤비 양반 들기름김 5g×20봉</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1묶음</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>10,078</td>
+												<td>10,099</td>
+												<td>-0.2</td>
+												<td class="last">8,680</td>
+											</tr>
+										
+											<tr>
+												<th scope="row" class="first cell_tit1 lvl1 tsw_fix" style="left: 0px;">콩나물</th>
+												<th scope="row" class="cell_tit2 lvl2 tsw_fix" style="left: 139.898px;">풀무원 국산콩 콩나물 340g</th>
+												<th scope="row" class="cell_tit3 lvl3 tsw_fix" style="left: 279.797px;">1봉</th>
+												<th scope="row" class="cell_tit4 lvl4 tsw_fix" style="left: 379.797px;">상품</th>
+												<td>2,469</td>
+												<td>2,533</td>
+												<td>-2.5</td>
+												<td class="last">2,508</td>
+											</tr>
+										
+										
+									</tbody>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

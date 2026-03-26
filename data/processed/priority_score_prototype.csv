@@ -1,0 +1,5 @@
+﻿item,total_months,avg_price,price_stddev,avg_abs_mom_change_pct,max_mom_increase_pct,max_mom_decrease_pct,price_stddev_score,avg_abs_mom_change_pct_score,max_mom_increase_pct_score,price_volatility_score,year,emissions_value,esg_risk_score,priority_score
+배추,38,4690.42,1332.88,16.05,44.69,-55.98,28.856463644561035,100.0,100.0,71.54,2023,97723.33,98.96,82.51
+사과,35,27584.74,2567.88,5.73,22.55,-17.5,57.78155118101016,24.395604395604398,40.8969567538708,41.05,2023,97723.33,98.96,64.21
+쌀,38,55953.03,4370.46,2.4,7.23,-5.31,100.0,0.0,0.0,40.0,2023,97723.33,98.96,63.58
+감자,38,437.26,100.81,10.39,29.37,-28.63,0.0,58.53479853479854,59.10304324612922,35.23,2023,97723.33,98.96,60.72

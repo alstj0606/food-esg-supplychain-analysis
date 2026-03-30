@@ -1,3 +1,56 @@
+# 🥗 Food ESG & Supply Chain Analysis
+
+<p align="right">
+  <a href="#-english-version">🇺🇸 English</a> | 
+  <a href="#-한국어-버전">🇰🇷 한국어</a>
+</p>
+
+---
+
+## 🇺🇸 English Version
+
+### 1. Project Overview
+An integrated analysis project evaluating sustainable food portfolios by considering consumption, price, supply chain, and ESG factors. This project identifies high-priority food categories by analyzing price volatility alongside environmental impact (ESG) risks.
+
+### 2. Project Goals
+1. **Identify Volatility:** Which food items exhibit the highest price fluctuations?
+2. **Prioritization:** Which categories require urgent management when considering both economic and ESG risks?
+3. **Pipeline Construction:** Can we implement an end-to-end analysis pipeline connecting SQL, Python, and Tableau?
+
+### 3. Data Sources
+* **KOSIS:** Consumer Price Index (CPI) for food items.
+* **KAMIS:** Monthly retail price data for Rice, Apple, Napa Cabbage, and Potato.
+* **FAOSTAT:** Agri-food systems emissions data for South Korea to generate ESG risk metrics.
+
+### 4. Tech Stack
+* **SQL (DuckDB):** Monthly price change rates and statistical volatility summaries.
+* **Python (Pandas, Numpy):** Data preprocessing, normalization, and composite scoring.
+* **Tableau:** Priority Score dashboard and visual analysis.
+
+### 5. Analysis Flow
+* **Step 1. Data Collection:** Raw data ingestion from KOSIS, KAMIS, and FAOSTAT.
+* **Step 2. Data Processing:** Transformed wide-to-long formats (KOSIS) and parsed HTML-based XLS (KAMIS).
+* **Step 3. SQL Analytics:** Calculated `LAG` values, price growth rates, and volatility summary stats.
+* **Step 4. Scoring:** Generated Price Volatility and ESG Risk Scores to calculate the final **Priority Score**.
+
+### 6. Key Results
+| Item | Priority Score | Status |
+| :--- | :--- | :--- |
+| **Napa Cabbage** | **82.51** | **Rank 1** (Highest volatility & seasonal risk) |
+| **Apple** | **64.21** | Rank 2 (Significant price swings) |
+| **Rice** | **63.58** | Rank 3 (Stable price but moderate ESG load) |
+| **Potato** | **60.72** | Rank 4 (Lowest management priority among categories) |
+
+### 7. What I Learned
+* Handling diverse public data formats (xlsx, HTML-based xls, csv).
+* Time-series price analysis using **SQL Window Functions**.
+* Designing a multi-criteria scoring model for business intelligence.
+* Implementing a complete lifecycle from raw data collection to Tableau dashboard.
+
+---
+
+## 🇰🇷 한국어 버전
+
 # food-esg-supplychain-analysis
 
 지속가능한 식품 포트폴리오를 위한 소비·가격·공급망·ESG 통합 분석 프로젝트
